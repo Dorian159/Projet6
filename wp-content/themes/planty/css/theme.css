@@ -2,9 +2,11 @@
 
 body * {
     font-family: 'Syne';
+    font-style: normal; 
 }
 
+
 p {
-    color: black;;
+    color: black;
 }
 
