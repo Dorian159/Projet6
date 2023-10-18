@@ -10,3 +10,28 @@ p {
     color: black;
 }
 
+/* Formulaire Page Nous rencontrer */
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-field1 {
+    height: 71px;
+    margin-bottom: 20px;
+}
+
+.text-field2 {
+    height: 237px;
+    resize: none;
+    margin-bottom: 22px;
+}
+
+.submit1 {
+    height: 55px;
+    width: 198px;
+    text-transform: none !important;
+    display: grid !important;
+    margin: auto !important;
+}
