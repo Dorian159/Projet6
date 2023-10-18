@@ -31,8 +31,15 @@
 
 			<?php do_action( 'ocean_top_bar' ); ?>
 
-			<?php do_action( 'ocean_header' ); ?>
-
+			<header>
+				
+				<img src="" alt="">
+				<nav>
+					<?php wp_nav_menu('Header'); ?>
+				</nav>
+			</header>
+				
+				
 			<?php do_action( 'ocean_before_main' ); ?>
 
 			<main id="main" class="site-main clr"<?php oceanwp_schema_markup( 'main' ); ?> role="main">
