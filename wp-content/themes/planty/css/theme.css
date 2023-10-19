@@ -10,6 +10,9 @@ p {
     color: black;
 }
 
+/* Header */
+
+
 #site-header {
     background-color: blueviolet !important;
 }
@@ -38,4 +41,126 @@ p {
     text-transform: none !important;
     display: grid !important;
     margin: auto !important;
+}
+
+/* Formulaire Page Commander */
+
+/* Compteurs */
+
+.commands {
+    display: flex;
+    flex-direction: row;
+    height: 56px !important;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+}
+
+.command-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.whole-counter {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 56px !important;
+    width: 82px !important;
+    margin-right: 11px !important;
+}
+
+
+.counter-number {
+    background-color: white !important;
+    width: 51px !important;
+    height: 56px !important;
+    text-align: center !important;
+    margin: 0;
+    border-radius: 7px 0px 0px 7px !important;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400 !important; 
+}
+
+.button-container {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.button-container input[type="submit"] {
+    height: 28px;
+    width: 31px;
+    margin: 0;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 0px;
+    background-color: #DC9F96;
+    font-weight: 400 !important; 
+}
+
+.button-plus {
+    border-radius: 0px 7px 0px 0px !important;
+    
+}
+
+.button-moins {
+    border-radius: 0px 0px 7px 0px !important;
+}
+
+.main-button {
+    background-color: #E0B9B4 !important;
+    margin: 0 !important;
+    width: 100px !important;
+    height: 56px !important;
+    font-size: 15px !important; 
+    font-weight: 400 !important; 
+    border-radius: 7px !important;
+}
+
+/* Formulaire */
+
+.title-form {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.textarea-form {
+    width: 383px;
+    height: 71px;
+    border-radius: 7px !important;
+    margin-top: 13px;
+}
+
+.submit2 {
+    width: 198px !important;
+    height: 55px !important;
+    display: grid !important;
+    margin: auto !important;
+    background-color: #E0B9B4 !important;
+    text-transform: none !important;
+    font-size: 15px !important;
+    font-weight: 400 !important; 
+    border-radius: 5px !important;
+    margin-top: 44px !important;
+}
+
+/* Séparateurs */
+
+.solid-top {
+    border: 1px solid;
+    width: 100%;
+    color: #FFF;
+    margin-top: 40px !important;
+    margin-bottom: 55px !important;
+}
+
+.solid-bot {
+    border: 1px solid;
+    height: 447px;
+    color: #FFF;
+    margin-top: 15px !important;
 }
