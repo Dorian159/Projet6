@@ -31,9 +31,9 @@
 
 			<?php do_action( 'ocean_top_bar' ); ?>
 
-			<header>
+			<header class="header-container">
 				
-				<img src="" alt="">
+				<img class="logoPlanty" src="http://localhost/Sites/Projet6/wp-content/themes/planty/images/LogoPlanty.png" alt="Logo Planty">
 				<nav>
 					<?php wp_nav_menu('Header'); ?>
 				</nav>

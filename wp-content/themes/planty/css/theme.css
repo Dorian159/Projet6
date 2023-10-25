@@ -1,21 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
+
 body * {
     font-family: 'Syne';
     font-style: normal; 
 }
 
+.clr {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: auto;
+}
 
 p {
     color: black;
 }
 
+
 /* Header */
 
-
-#site-header {
-    background-color: blueviolet !important;
+header {
+    
+    height: 80px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center;
 }
+
+.logoPlanty {
+    height: 19px;
+}
+
+.menu {
+    list-style: none;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+
+#menu-item-431:hover {
+    font-weight: 600;
+}
+
+#menu-item-432 {
+    
+}
+
+#menu-item-430 {
+    width: 236px;
+    height: 80px;
+    background-color: #DC9F96;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-item-430:hover {
+    background-color: #C02E44;
+}
+/* Footer */
+
 
 /* Formulaire Page Nous rencontrer */
 
@@ -46,6 +93,10 @@ p {
 /* Formulaire Page Commander */
 
 /* Compteurs */
+
+.card-img {
+    margin-bottom: 15px;
+}
 
 .commands {
     display: flex;
@@ -87,18 +138,22 @@ p {
 .button-container {
     display: flex !important;
     flex-direction: column !important;
-}
-
-.button-container input[type="submit"] {
-    height: 28px;
-    width: 31px;
-    margin: 0;
-    display: flex !important;
-    align-items: center !important;
     justify-content: center !important;
     line-height: 0px;
+}
+
+.button-plus,
+.button-moins {
+    height: 27.5px;
+    width: 31px;
+    padding: 0; 
     background-color: #DC9F96;
-    font-weight: 400 !important; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center; 
+    line-height: 28px;
 }
 
 .button-plus {
@@ -111,6 +166,7 @@ p {
 }
 
 .main-button {
+    color: #FFF;
     background-color: #E0B9B4 !important;
     margin: 0 !important;
     width: 100px !important;
@@ -118,6 +174,14 @@ p {
     font-size: 15px !important; 
     font-weight: 400 !important; 
     border-radius: 7px !important;
+    border: none;
+    cursor: pointer;
+}
+
+.solid-button {
+    width: 31px;
+    height: 1px;
+    background-color: #FFF !important;
 }
 
 /* Formulaire */
@@ -146,15 +210,16 @@ p {
     font-weight: 400 !important; 
     border-radius: 5px !important;
     margin-top: 44px !important;
+    margin-bottom: 90px !important;
 }
 
-/* Séparateurs */
+/* Séparateurs Formulaire*/
 
 .solid-top {
-    border: 1px solid;
+    height: 1px;
+    background-color: #FFF !important;
     width: 100%;
-    color: #FFF;
-    margin-top: 40px !important;
+    margin-top: 190px !important;
     margin-bottom: 55px !important;
 }
 
