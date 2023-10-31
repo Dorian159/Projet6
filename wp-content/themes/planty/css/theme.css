@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
 
-body * {
-    font-family: 'Syne';
-    font-style: normal; 
-}
-
-.clr {
+body {
     max-width: 1440px;
     min-width: 320px;
-    margin: auto;
+    margin: auto !important;
+}
+
+body * {
+    font-family: 'Syne';
+    font-style: normal;
+    
 }
 
 p {
     color: black;
 }
 
-
 /* Header */
 
 header {
-    
+    margin: auto !important;
     height: 80px;
     display: flex !important;
     flex-direction: row !important;
@@ -28,8 +28,18 @@ header {
     align-items: center;
 }
 
+
+header a {
+    color: #000;
+}
+
+header a:hover {
+    color: #000;
+}
+
 .logoPlanty {
     height: 19px;
+    margin-left: 37px;
 }
 
 .menu {
@@ -39,16 +49,15 @@ header {
     align-items: center;
 }
 
+#menu-item-431 {
+    margin-right: 60px;
+}
 
 #menu-item-431:hover {
-    font-weight: 600;
+    font-weight: 500;
 }
 
-#menu-item-432 {
-    
-}
-
-#menu-item-430 {
+#menu-item-430 a {
     width: 236px;
     height: 80px;
     background-color: #DC9F96;
@@ -58,11 +67,31 @@ header {
     align-items: center;
 }
 
-#menu-item-430:hover {
+#menu-item-430 a:hover {
     background-color: #C02E44;
 }
+
+#menu-item- {
+    margin-right: 60px;
+}
+
 /* Footer */
 
+
+footer {
+    height: 60px;
+    margin-bottom: none;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+footer a:hover {
+    color: #000;
+}
 
 /* Formulaire Page Nous rencontrer */
 
@@ -228,4 +257,16 @@ header {
     height: 447px;
     color: #FFF;
     margin-top: 15px !important;
+}
+
+/* Responsive tablettes 800px) */
+@media (max-width: 800px) {
+    
+}
+
+
+
+/* Responsive mobiles 480px) */
+@media (max-width: 480px) {
+    
 }

@@ -33,7 +33,7 @@
 
 			<header class="header-container">
 				
-				<img class="logoPlanty" src="http://localhost/Sites/Projet6/wp-content/themes/planty/images/LogoPlanty.png" alt="Logo Planty">
+			<a href="<?php echo esc_url(home_url('/')); ?>"><img class="logoPlanty" src="http://localhost/Sites/Projet6/wp-content/themes/planty/images/LogoPlanty.png" alt="Logo Planty"></a>
 				<nav>
 					<?php wp_nav_menu('Header'); ?>
 				</nav>
