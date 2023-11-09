@@ -10,10 +10,10 @@
 	</main><!-- #main -->
 
 	<footer>
-	<nav >
-	<a href="<?php echo admin_url(); ?>">Mentions Légales</a>
-	</nav>
-</footer>	
+		<nav >
+			<a href="<?php echo admin_url(); ?>">Mentions Légales</a>
+		</nav>
+	</footer>	
 
 
 

@@ -15,7 +15,7 @@ function theme_enqueue_styles()
 
 
 function ajouter_lien_admin_au_menu($items, $args) {
-    if (is_user_logged_in() && current_user_can('administrator')) {
+    if (is_user_logged_in()) {
         $admin_link = new stdClass();
         $admin_link->title = 'Admin';
         $admin_link->url = admin_url();

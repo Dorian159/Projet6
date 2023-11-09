@@ -80,7 +80,6 @@ header a:hover {
 
 footer {
     height: 60px;
-    margin-bottom: none;
 }
 
 footer a {
@@ -226,6 +225,7 @@ footer a:hover {
     height: 71px;
     border-radius: 7px !important;
     margin-top: 13px;
+    
 }
 
 .submit2 {
@@ -261,12 +261,180 @@ footer a:hover {
 
 /* Responsive tablettes 800px) */
 @media (max-width: 800px) {
-    
+
+/* Header */
+
+header {
+    height: 60px;
+}
+
+.logoPlanty {
+    height: 15px;
+    margin-left: 20px;
+}
+
+#menu-item-431 {
+    margin-right: 20px;
+}
+
+
+#menu-item-430 a {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+}
+
+
+#menu-item- {
+    margin-right: 20px;
+}
+
+/* Footer */
+
+footer {
+    height: 46px !important;
+}
+
+/* Page Nous rencontrer */
+
+
+
+.wp-image-450 {
+    display: none !important;
+}
+
+/* Formulaire Page Nous rencontrer */
+
+.elementor-element-e2386d6 {
+    background-image: none !important;
+}
+
+/* Formulaire Page Commander */
+
+/* Compteurs */    
+
+.commands {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    margin: 15px !important;
+}
+
+/* Formulaire */
+
+.form2-container {
+    margin: auto !important;
+    padding: 15px !important;
+}
+
+.title-form {
+    text-align: center;
+}
+
+/* Séparateurs Formulaire*/
+
+.solid-top {
+    margin-top: 450px !important;
+}
+
+.solid-bot {
+    display: none;
+}
+
 }
 
 
 
 /* Responsive mobiles 480px) */
 @media (max-width: 480px) {
-    
+
+    /* Header */
+
+    header {
+        height: 40px;
+    }
+
+    .logoPlanty {
+        height: 10px !important;
+        margin-left: 10px;
+    }
+
+    #menu-item-431 {
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 16px;
+    }
+
+
+    #menu-item-430 a {
+        width: 120px !important;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #menu-item- {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+/* Footer */
+
+footer {
+    height: 26px !important;
+    font-size: 14px !important;
+}
+
+footer a {
+    margin-bottom: 14px !important;
+}
+
+/* Formulaire Page Nous rencontrer */
+
+.text-field1 {
+    height: 45px !important;
+}
+
+.text-field2 {
+    height: 150px;
+}
+
+form label {
+    font-size: 16px !important;
+}
+
+/* Formulaire Page Commander */
+
+/* Compteurs */ 
+
+.cards {
+    margin: 20px !important;
+}
+
+/* Formulaire */
+
+.title-form {
+    font-size: 20px;
+    text-align: center;
+}
+
+.textarea-form {
+    height: 45px;
+}
+
+.form2-space {
+    margin-top: 40px !important;
+}
+
+label::first-line {
+   
+}
+
+/* Séparateurs Formulaire*/
+
+.solid-top {
+    margin-top: 900px !important;
+}
+
 }
